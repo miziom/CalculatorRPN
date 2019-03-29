@@ -1,0 +1,62 @@
+Autor: Mateusz Mizio
+-----------------------------------------------------------------------------------------------------------------------------
+Instrukcja obslugi kalkulatora wykorzystujacego ONP (ONP - Odwrotna Notacja Polska)
+1. MENU GLOWNE
+W celu wybrania pozadanej opcji, nalezy wpisac odpowiedni numer
+'1' - Licz
+'2' - Dodaj funkcje
+'3' - Dodane funkcje
+'4' - Instrukcja i informacje o autorze
+'5' - Wyjscie
+I zatwierdŸ klawiszem ENTER.
+-----------------------------------------------------------------------------------------------------------------------------
+2. MODUL 'LICZ'
+W celu powrotu wprowadz 'Q' lub 'q' i zatwierdz klawiszem ENTER.
+W celu powrotu do MENU GLOWNEGO wpisz 'p' lub 'P' i zatwierdŸ klawiszem ENTER.
+W celu obliczenia wprowadz wyrazenie algebraiczne, które NIE konczy siê znakiem '=' (rowna sie),
+a nastêpnie zatwierdz klawiszem ENTER.
+Liczby rzeczywiste wprowadzac przy pomocy '.' (kropki) np. '1.231'.
+..............................................................................................................................
+MOZLIWE DZIALANIA
+Mnozenie za pomoca operatora '*'
+Dzielenie za pomoca operatora '/' 
+Dodawanie za pomoca operatora '+'
+Odejmowanie za pomoca operatora '-'
+Potêgowanie za pomoca operatora '^'
+..............................................................................................................................
+DEFINIOWANIE FUNKCJI TRYGONOMETRYCZNYCH
+Tangens za pomoca operatora 'tan(x)', gdzie x jest podane w stopniach.
+Cotangens za pomoca operatora 'ctan(x)', gdzie x jest podane w stopniach.
+Sinus za pomoca operatora 'sin(x)', gdzie x jest podane w stopniach.
+Cosinus za pomoca operatora 'cos(x)', gdzie x jest podane w stopniach.
+Argument 'x' NIE MOZE byæ funkcj¹ trygonometryczna.
+Przyklad : tan(cos(x)) – NIE MOZNA
+Argument moze byc zdefiniowana funkcja, ktore beda opisane pozniej.
+Argument moze byc dowolnym wyrazeniem algebraicznym, ktory wykorzystuje operatory ('*', '/', '+', '-', '^') wraz z nawiasami.
+..............................................................................................................................
+UZYWANIE ZDEFINIOWANYCH FUNKCJI
+Po zdefiniowaniu funkcji (o definiowaniu pozniej) mozemy z nich korzystac w programie.
+W celu wywolania funkcji nalezy podac jej nazwe, a nastêpnie w nawiasie podac wartosci argumentow w kolejnosci alfabetycznej,
+oddzielonych PRZECINKAMI.
+Przyklad:
+Nazwa funkcji - 'fun1' Definicja funkcji - 'x+y+z'
+Wywolanie funkcji - fun1(1,2,3), gdzie x =1, y=2, z=3
+------------------------------------------------------------------------------------------------------------------------------
+3. MODUL 'DODAJ FUNKCJE'
+W celu powrotu wprowadŸ 'Q' lub 'q' i zatwierdŸ klawiszem ENTER.
+W celu powrotu do MENU GLOWNEGO wpisz 'p' lub 'P' i zatwierdŸ klawiszem ENTER.
+..............................................................................................................................
+1. Zdefiniuj nazwê funkcji
+Nazwa nie moze zawierac znakow: '+', '-', '*', '/', '^', '[', ']', '{', '}', '(', ')', '#', ',', ';'
+Nazwa nie moze zawierac wyrazen: 'sin', 'cos', 'tan', 'ctan'
+Nazwa nie moze rozpoczynac siê cyfra.
+Nazwa nie moze byc taka sama, jak istniejaca juz nazwa.
+..............................................................................................................................
+2. Zdefiniuj funkcje
+W celu zdefiniowania funkcji zmiennych, nalezy wpisac pozadane wyrazenie ze zmiennymi w postaci liter.
+Kiedy definiujemy w wyrazeniu funkcje trygonometryczna, argument zastepujemy wybranym wyrazeniem ze zmiennymi w postaci liter.
+Mozemy rowniez uzyc zdefiniowanej juz funkcji, ale musimy ja zdefiniowac ze stalymi zmiennymi.
+Przyklady:
+2*cos(x)*sin(x)
+x^2+y^2+z^2
+cos(2*x)-tan(30-x)+fun1(1,2,3) -> gdzie np. fun1 = x^2+y^2+z^2
